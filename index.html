@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--for the font style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <!-- P5js
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="sketch.js"></script> -->
+    <title>Consolidation game in JavaScript</title>
+</head>
+
+<body>
+    
+    <div class="grid-container">
+        <!-- player-one -->
+        <div class="player-1">
+            <p>player Name</p>
+        
+        <div class="images-player1">
+            <img class ="img-player1" src="images/2-h-1.png" alt="hero">
+            <img class ="img-player1-2" src="images/8-h.png" alt="hero">
+            <img class ="img-player1" src="images/10-h.png" alt="hero">
+        </div>
+    </div>
+        <!-- button -->
+        <div class="actions-1">
+            <button type="button" class="hit" id="hit">Hit</button>
+            <button type="button" class="heal" id="heal">Heal</button>
+            <button type="button" class="yield" id="yield">Yield</button>
+        </div>
+        <!-- health power -->
+        <div class="field-1">
+            <label for="playerHealth">Player Health:</label>
+            <progress class="progressplayer" id="playerhealth" value="100" max="100"></progress>
+        </div>
+        <!-- player-two -->
+        <div class="player-2">
+            <p>player Name</p>
+            <div class="images-player2">
+                <img class ="img-player2" src="images/1-g.png" alt="hero">
+                <img class ="img-player2" src="images/4-g.png" alt="hero">
+                <img class ="img-player2-2" src="images/6-g.png" alt="hero">
+            </div>
+        </div>
+        <!-- button -->
+        <div class="actions-2">
+            <button type="button" class="hit" id="hit">Hit</button>
+            <button type="button" class="heal" id="heal">Heal</button>
+            <button type="button" class="yield" id="multiplication">Yield</button>
+        </div>
+        <!-- health power -->
+        <div class="field-2">
+            <label for="playerHealth">Player Health:</label>
+            <progress class="progressplayer" id="playerhealth" value="100" max="100"></progress>
+        </div>
+    </div>
+    <!-- player info -->
+    <div class="grid-content">
+        <div class="content-play1">
+            <div class="field">
+                <label for="playername">Player one:</label>
+                <input type="text" name="playername" id="playername" class="place" placeholder="Enter your name"/>
+            </div>
+            <div class="field">
+                <label for="playeritem">Player item:</label>
+                <input type="text" name="playeritem" id="playeritem" class="place" placeholder="Enter your item"/>
+            </div>
+            <div class="field">
+                <label for="playerrace">Player race:</label>
+                <input type="text" name="playerrace" id="playerrace" class="place" placeholder="Enter your race"/>
+            </div>
+        </div>
+        <div class="content-play2">
+            <div class="field">
+                <label for="playername">Player two:</label>
+                <input type="text" name="playername" id="playername" class="place" placeholder="Enter your name"/>
+            </div>
+            <div class="field">
+                <label for="playeritem">Player item:</label>
+                <input type="text" name="playeritem" id="playeritem" class="place" placeholder="Enter your item"/>
+            </div>
+            <div class="field">
+                <label for="playerrace">Player race:</label>
+                <input type="text" name="playerrace" id="playerrace" class="place" placeholder="Enter your race" />
+            </div>
+        </div>
+    </div>
+    <script type="text/JavaScript" src="app.js"></script>
+
+</body>
+
+</html>

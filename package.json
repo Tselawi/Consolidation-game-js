@@ -1,0 +1,22 @@
+{
+  "name": "consolidation-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "scss": "node-sass --watch src/scss --output src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tselawi/Consolidation-game-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tselawi/Consolidation-game-js/issues"
+  },
+  "homepage": "https://github.com/Tselawi/Consolidation-game-js#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

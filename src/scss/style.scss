@@ -1,0 +1,47 @@
+@import "player1";
+@import "player2";
+@import "varaibles";
+
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+body{
+    height: 100vh;
+    width: 99vw; 
+    font-family: $font;
+    background: linear-gradient(0.25turn, #a64b3f, #ebf8e1, #f69d3c);
+    
+}
+ .grid-container {
+    height: 100%;
+    width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          ". ."
+          ". .";
+    
+      }
+      .grid-content{
+        width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:  1fr;
+            gap: 0px 0  px;
+            grid-template-areas:
+              ". .";
+      }
+
+      input{
+          width: 350px;
+          padding: 15px;
+          border-radius: 50px;
+          border-style: none;
+          font-size: 1rem;
+      }
+
+      
